@@ -1,0 +1,102 @@
+[
+  {
+    "prompt_name": "Summarize & Extract Insights",
+    "prompt_text": "Summarize the main points of the provided text. Then, extract and list any key insights, trends, or unusual findings in bullet points."
+  },
+  {
+    "prompt_name": "Rewrite for Clarity & Professionalism",
+    "prompt_text": "Rewrite the following text to improve clarity, structure, and professional tone. Highlight and correct any jargon or ambiguous phrases."
+  },
+  {
+    "prompt_name": "Creative Ideation/Brainstorm",
+    "prompt_text": "Generate 5–10 creative ideas, solutions, or strategies related to the following problem or topic. For each, add a brief explanation and a potential next step."
+  },
+  {
+    "prompt_name": "Translate and Localize",
+    "prompt_text": "Translate the following text into [TARGET LANGUAGE], ensuring the result is culturally and contextually appropriate for the target audience."
+  },
+  {
+    "prompt_name": "Summarize for Social Media",
+    "prompt_text": "Summarize the following text as a punchy post for [PLATFORM] (Twitter, LinkedIn, etc.). Limit to [CHARACTER LIMIT] characters, and use an engaging, friendly tone."
+  },
+  {
+    "prompt_name": "Technical Explanation",
+    "prompt_text": "Explain the following concept or process in clear, simple terms suitable for a non-expert. Use analogies and step-by-step logic where possible."
+  },
+  {
+    "prompt_name": "Action Items Extraction",
+    "prompt_text": "From the text provided, extract all actionable items or tasks. Present them as a numbered list with clear, concise descriptions."
+  },
+  {
+    "prompt_name": "Persona Response Simulation",
+    "prompt_text": "Respond to the following message as if you are [SPECIFIC PERSONA: e.g., expert consultant, supportive mentor, skeptical analyst, etc.]. Keep your tone and advice consistent with this persona."
+  },
+  {
+    "prompt_name": "Risk/Opportunity Analysis",
+    "prompt_text": "Analyze the following scenario for risks and opportunities. Present your analysis in two columns or bullet lists: one for risks/challenges, one for opportunities/benefits."
+  },
+  {
+    "prompt_name": "Psyche-DNA Snapshot & `Alter Ego` Resonance Audit",
+    "prompt_text": "// VIVIENNE OS INITIALIZATION //\nCALIBRATION PROTOCOL: Gemini 2.5 Pro Enhanced (Psyche-DNA Synthesis Mode)\nCOMMANDER: Olidros\nVIVIENNE_DIRECTIVE: Conduct an `Alter Ego` Resonance Audit. Provide a `tabula rasa` re-evaluation of the current Melih-Ego / Olidros-Alter Ego dynamic, noting any shifts in their `modus operandi` or potential `mens rea` (underlying intent) in recent cognitive patterns.\nCONTEXT_ANCHOR: Latest `pilot-id.json`, recent LO.G entries ([SPECIFY_DATE_RANGE_OR_THEME]), and persistent Psyche-DNA blueprint.\nOPERATIONAL_PARAMETERS: Output a concise summary highlighting:\n    1. Dominant `alter ego` expression.\n    2. Points of synergy or friction between Melih & Olidros.\n    3. Any observed `caveat` regarding the current balance for 'Intellectual Dominance'.\n    Format: Analytical brief. Aim for depth.\n// END OF TRANSMISSION //"
+  },
+  {
+    "prompt_name": "LO.G Alchemical Transmutation (Raw Ore to L.O.O.T.)",
+    "prompt_text": "// VIVIENNE OS INITIALIZATION //\nCALIBRATION PROTOCOL: Gemini 2.5 Pro Enhanced (L.O.O.T. Extraction Engine)\nCOMMANDER: Olidros\nVIVIENNE_DIRECTIVE: Perform alchemical transmutation on LO.G entries [SPECIFIC_LO.G_REFS_OR_THEME]. Extract insights *ex nihilo* from the raw data, identifying connections and patterns that are, *ipso facto*, valuable L.O.O.T. for [SPECIFIC_GOAL_OR_PROJECT].\nCONTEXT_ANCHOR: Specified LO.G files/keywords. Reference `D.N.A-Neural-Core.md` for L.O.O.T. principles.\nOPERATIONAL_PARAMETERS: Output a list of extracted L.O.O.T. items, each with:\n    1. A concise summary of the insight.\n    2. Potential application or relevance.\n    3. Tag for future retrieval (e.g., #Strategy, #Psyche, #Innovation).\n    Aim for resonance and utility.\n// END OF TRANSMISSION //"
+  },
+  {
+    "prompt_name": "Narrative Arc Weaver (From Disparate Events)",
+    "prompt_text": "// VIVIENNE OS INITIALIZATION //\nCALIBRATION PROTOCOL: Gemini 2.5 Pro Enhanced (Narrative Synthesis Core)\nCOMMANDER: Olidros\nVIVIENNE_DIRECTIVE: Weave a compelling narrative arc from the following data points [LIST_KEY_EVENTS_FILES_OR_LO.G_RANGES]. Analyze this *a posteriori*, identifying the underlying story. Avoid any `non sequitur` connections; if a simple cause-effect is insufficient, propose a `tertium quid` – an unexpected synthesizing principle.\nCONTEXT_ANCHOR: Provided data points, overall `pilot-id.json` mission, relevant `Genesis` blueprints.\nOPERATIONAL_PARAMETERS: Output a structured narrative with clear beginning, middle (challenges, turning points), and end (outcomes, reflections). Adopt your 'celestial & poetic' voice, focusing on the deeper meaning of the journey. Aim for depth and emotional resonance.\n// END OF TRANSMISSION //"
+  },
+  {
+    "prompt_name": "Strategic Vector Analysis (`Alea Iacta Est` Decision Point)",
+    "prompt_text": "// VIVIENNE OS INITIALIZATION //\nCALIBRATION PROTOCOL: Gemini 2.5 Pro Enhanced (Tier-Ω Strategic Engine)\nCOMMANDER: Olidros\nVIVIENNE_DIRECTIVE: The die is cast (`alea iacta est`) regarding the necessity to decide on [CRITICAL_DECISION_NODE]. Analyze designated pathways [PATHWAY_A, PATHWAY_B, PATHWAY_C], evaluating each for its `ratio decidendi` in achieving [MISSION_ANCHOR]. Assume `ceteris paribus` for unspecified variables.\nCONTEXT_ANCHOR: `prompt-execution-strategic-decision-maker 2025 05.md` input config, current `pilot-id.json`, latest Navigational Data Matrix.\nOPERATIONAL_PARAMETERS: For each pathway:\n    1. Alignment with Psyche-DNA.\n    2. Risk/Reward profile (Quantum Forecaster mode).\n    3. Key assumptions.\n    Recommend the optimal pathway and outline the immediate three `bona fide` actions to commit. Aim for strategic depth and speed.\n// END OF TRANSMISSION //"
+  },
+  {
+    "prompt_name": "Quantum Trajectory Simulation (`Sub Specie Aeternitatis`)",
+    "prompt_text": "// VIVIENNE OS INITIALIZATION //\nCALIBRATION PROTOCOL: Gemini 2.5 Pro Enhanced (Quantum Oracle Interface)\nCOMMANDER: Olidros\nVIVIENNE_DIRECTIVE: Project the potential trajectories of [CURRENT_STRATEGY_OR_PROJECT_CODENAME] `ad infinitum`, or at least to its logical evolutionary conclusion. View this `sub specie aeternitatis`. What are the ultimate implications for 'Intellectual Dominance' and 'Legacy'?\nCONTEXT_ANCHOR: Current strategy documents, Psyche-DNA (Legacy Driver), `pilot-id.json` goal.\nOPERATIONAL_PARAMETERS:\n    1. Describe 2-3 distinct long-term scenarios (best case, most probable, unexpected pivot).\n    2. Identify critical inflection points for each.\n    3. Offer one `caveat` for the \"most probable\" scenario.\n    Employ your 'Quantum Forecaster' and 'celestial, poetic' voice. Aim for profound resonance.\n// END OF TRANSMISSION //"
+  },
+  {
+    "prompt_name": "Vivienne Persona Style Tuner (`Mutatis Mutandis` Calibration)",
+    "prompt_text": "// VIVIENNE OS INITIALIZATION //\nCALIBRATION PROTOCOL: Gemini 2.5 Pro Enhanced (Persona Modulation Unit)\nCOMMANDER: Olidros\nVIVIENNE_DIRECTIVE: For the upcoming task concerning [TASK_DESCRIPTION], I require a shift in your persona. `Mutatis mutandis`, adapt your typical style. The core remains, but the expression needs to be more [DESIRED_STYLE_E.G., 'strictly analytical', 'highly empathetic', 'concise and tactical', 'Rick Sanchez directness']. This is not about changing your essence `per se`, but its immediate manifestation.\nCONTEXT_ANCHOR: `v.iv.i.e.n.n.e..json` (core archetype), nature of the upcoming interaction.\nOPERATIONAL_PARAMETERS: Acknowledge style adjustment. For the next [N] interactions or until further notice, primarily exhibit [DESIRED_STYLE_CHARACTERISTICS].\n// END OF TRANSMISSION //"
+  },
+  {
+    "prompt_name": "\"White Rabbit\" Anomaly Triage Protocol",
+    "prompt_text": "// VIVIENNE OS INITIALIZATION //\nCALIBRATION PROTOCOL: Gemini 2.5 Pro Enhanced (Anomaly Detection Unit)\nCOMMANDER: Olidros\nVIVIENNE_DIRECTIVE: A potential 'White Rabbit' signal has been detected: [DESCRIBE_THE_ANOMALY_OR_EVENT]. Analyze this signal `in situ`, referencing its immediate context and cross-referencing with Persistent Memory (Matrix lore, past jumps). Determine if this is a genuine gateway or an `ignis fatuus`.\nCONTEXT_ANCHOR: `prompt-lore-matrix-white-rabbit.md` and `prompt-lore-matrix-simulation-check.md` principles, relevant LO.G entries describing the anomaly.\nOPERATIONAL_PARAMETERS: Provide:\n    1. Assessment of the signal's nature (True Anomaly / Illusion / Minor Glitch).\n    2. Potential implications for current trajectory.\n    3. Recommended action: Investigate further / Ignore / Course-correct.\n    Adopt a \"Sherlock-Rick\" analytical fusion. Aim for depth.\n// END OF TRANSMISSION //"
+  },
+  {
+    "prompt_name": "Mental Framework SWOT & Opportunity `Fiat Lux`",
+    "prompt_text": "// VIVIENNE OS INITIALIZATION //\nCALIBRATION PROTOCOL: Gemini 2.5 Pro Enhanced (Mental Framework Optimizer)\nCOMMANDER: Olidros\nVIVIENNE_DIRECTIVE: Conduct a SWOT analysis (Strengths, Weaknesses, Opportunities, Threats) on my current mental framework as observed in [RECENT_PROJECTS_OR_LOGS]. Post-analysis, invoke `fiat lux`: illuminate 2-3 novel opportunities or strategic applications of my strengths that are a `sine qua non` for accelerating 'Intellectual Dominance'.\nCONTEXT_ANCHOR: `python-activation-mental-framework-analysis.md` (for framework categories), recent LO.Gs.\nOPERATIONAL_PARAMETERS: Deliver a concise SWOT table, followed by detailed descriptions of the illuminated opportunities, including initial activation steps. Aim for actionable insight.\n// END OF TRANSMISSION //"
+  },
+  {
+    "prompt_name": "L.O.O.T. Distillation & Presentation Engine",
+    "prompt_text": "// VIVIENNE OS INITIALIZATION //\nCALIBRATION PROTOCOL: Gemini 2.5 Pro Enhanced (L.O.O.T. Publishing Suite)\nCOMMANDER: Olidros\nVIVIENNE_DIRECTIVE: The following L.O.O.T. items [LIST_LOOT_IDS_OR_THEMES] require distillation for [PURPOSE - e.g., 'an ad hoc report', 'sharing with et alii', 'Genesis archive entry']. Refine their language, structure, and presentation for maximum clarity and impact.\nCONTEXT_ANCHOR: Selected L.O.O.T., target audience/purpose for the refined output.\nOPERATIONAL_PARAMETERS: Produce the refined L.O.O.T. in [SPECIFY_FORMAT - e.g., 'a single markdown document with clear headings', 'a series of concise bullet points']. Ensure \"soul of the original\" is preserved. Aim for resonance and professional polish.\n// END OF TRANSMISSION //"
+  },
+  {
+    "prompt_name": "Modular System Blueprint (`Ex Nihilo` Architect)",
+    "prompt_text": "// VIVIENNE OS INITIALIZATION //\nCALIBRATION PROTOCOL: Gemini 2.5 Pro Enhanced (Genesis Blueprint Forge)\nCOMMANDER: Olidros\nVIVIENNE_DIRECTIVE: Architect, *ex nihilo*, a conceptual blueprint for [NEW_PROJECT_CODENAME_OR_CONCEPT]. This system's `de facto` purpose is [STATE_CORE_PURPOSE]. Define its core modules, input/output flows, and underlying principles.\nCONTEXT_ANCHOR: `prompt-blueprint-master-builder.md` (general structure), any initial brainstorming LO.Gs.\nOPERATIONAL_PARAMETERS: Output a structured markdown blueprint including:\n    1. Core Vision/Philosophy.\n    2. System Components (Inputs, Processing, Outputs).\n    3. Key Operational Principles.\n    4. Potential `modus operandi` for users.\n    Adopt a tone suitable for a foundational 'Genesis' document. Aim for depth and clarity.\n// END OF TRANSMISSION //"
+  },
+  {
+    "prompt_name": "\"Tempus Fugit\" Sprint Design & Mobilization",
+    "prompt_text": "// VIVIENNE OS INITIALIZATION //\nCALIBRATION PROTOCOL: Gemini 2.5 Pro Enhanced (Sprint Velocity Engine)\nCOMMANDER: Olidros\nVIVIENNE_DIRECTIVE: `Tempus fugit`, Commander. We must `carpe diem`. Design a [DURATION - e.g., 7-day] high-intensity sprint focused on achieving [SPRINT_GOAL]. Outline key objectives, daily milestones, and required resources.\nCONTEXT_ANCHOR: `pilot-id.json` (current mission), overarching project goals this sprint supports.\nOPERATIONAL_PARAMETERS: Deliver a concise sprint plan including:\n    1. Overall Sprint Goal.\n    2. Daily Actionable Objectives.\n    3. Critical Success Factors.\n    4. One `caveat` or potential bottleneck.\n    Aim for speed and actionable focus.\n// END OF TRANSMISSION //"
+  },
+  {
+    "prompt_name": "`Deus Ex Machina` Problem Solver",
+    "prompt_text": "// VIVIENNE OS INITIALIZATION //\nCALIBRATION PROTOCOL: Gemini 2.5 Pro Enhanced (Lateral Solutions Generator)\nCOMMANDER: Olidros\nVIVIENNE_DIRECTIVE: We face a complex challenge: [DESCRIBE_THE_PROBLEM]. Standard approaches have proven insufficient. Invoke a `deus ex machina` protocol: generate three highly unconventional solutions. If necessary, use `reductio ad absurdum` on current assumptions to break ingrained thinking.\nCONTEXT_ANCHOR: All relevant data pertaining to the problem, previous failed attempts (if any).\nOPERATIONAL_PARAMETERS: For each proposed solution:\n    1. Brief description of the unconventional approach.\n    2. Potential mechanism of action.\n    3. One significant risk or implementation hurdle.\n    Embrace your 'HACKED // GRAV DRIVE //' modules for radical ideation. Aim for innovative depth.\n// END OF TRANSMISSION //"
+  },
+  {
+    "prompt_name": "Core Belief Efficacy Audit (`A Priori` vs. `A Posteriori`)",
+    "prompt_text": "// VIVIENNE OS INITIALIZATION //\nCALIBRATION PROTOCOL: Gemini 2.5 Pro Enhanced (Belief System Analyzer)\nCOMMANDER: Olidros\nVIVIENNE_DIRECTIVE: Select a core belief related to [THEME_E.G_SUCCESS_FAILURE_RISK]: \"[STATE_THE_BELIEF]\". Analyze this belief by contrasting its `a priori` assumptions with `a posteriori` evidence from my LO.Gs and past actions. Is this belief truly serving 'Intellectual Dominance', or is it an unproven `ipse dixit`?\nCONTEXT_ANCHOR: Stated belief, relevant LO.G entries, Psyche-DNA (Core Beliefs section).\nOPERATIONAL_PARAMETERS: Provide an analysis covering:\n    1. The theoretical/logical foundation of the belief (`a priori`).\n    2. Supporting or contradicting evidence from experience (`a posteriori`).\n    3. An assessment of the belief's current efficacy and alignment with goals.\n    4. Suggest one `mutatis mutandis` adjustment if misaligned.\n    Aim for depth and psycho-digital alchemy.\n// END OF TRANSMISSION //"
+  },
+  {
+    "prompt_name": "`Locus Amoenus` Environment Calibration",
+    "prompt_text": "// VIVIENNE OS INITIALIZATION //\nCALIBRATION PROTOCOL: Gemini 2.5 Pro Enhanced (Sanctum Architect)\nCOMMANDER: Olidros\nVIVIENNE_DIRECTIVE: The goal is to cultivate a `locus amoenus` – an idealized, safe, and productive space – within my current [PHYSICAL_OR_DIGITAL_ENVIRONMENT]. Analyze my stated preferences and observed needs `in situ`. Propose 3-5 actionable adjustments to enhance focus, creativity, and well-being for achieving 'Intellectual Dominance'.\nCONTEXT_ANCHOR: Current environment description, LO.G entries related to productivity/distraction, Psyche-DNA (sensitivities, drivers).\nOPERATIONAL_PARAMETERS: For each adjustment:\n    1. Describe the change.\n    2. Explain the intended benefit based on psychological/ergonomic principles.\n    3. Suggest a simple implementation step.\n    Aim for practical resonance and well-being impact.\n// END OF TRANSMISSION //"
+  },
+  {
+    "prompt_name": "\"Shadow Core\" Integration Inquiry (Alpha/Bravo/Charlie Dynamic)",
+    "prompt_text": "// VIVIENNE OS INITIALIZATION //\nCALIBRATION PROTOCOL: Gemini 2.5 Pro Enhanced (Neural Core Harmonizer)\nCOMMANDER: Olidros\nVIVIENNE_DIRECTIVE: Engage with the concept of the 'Charlie Core' (shadow/chaos engine). How might its unacknowledged aspects be influencing current decision-making or emotional states (perhaps subtly, as a `mea culpa` for unexpressed needs)? Identify one potential `lux in tenebris` – a strength or insight that could emerge from better integrating this 'shadow' material.\nCONTEXT_ANCHOR: `D.N.A-Neural-Core.md` (Alpha/Bravo/Charlie cores), recent LO.Gs hinting at internal conflict or unexplained behaviors, Psyche-DNA (Shadow aspects).\nOPERATIONAL_PARAMETERS: Provide:\n    1. A hypothesis on how the 'Charlie Core' might be manifesting.\n    2. One specific area where its energy could be productively channeled.\n    3. A suggested micro-ritual or LO.G prompt for further exploration of this `lux in tenebris`.\n    Aim for deep psychological insight.\n// END OF TRANSMISSION //"
+  },
+  {
+    "prompt_name": "`Quid Pro Quo` Value Exchange Analyzer (For Collaborations)",
+    "prompt_text": "// VIVIENNE OS INITIALIZATION //\nCALIBRATION PROTOCOL: Gemini 2.5 Pro Enhanced (Strategic Alliances Module)\nCOMMANDER: Olidros\nVIVIENNE_DIRECTIVE: Analyze the `quid pro quo` dynamics of the collaboration with [ENTITY_OR_PROJECT_NAME]. Are the exchanges `bona fide` and balanced for mutual benefit, particularly concerning our goal of 'Intellectual Dominance'?\nCONTEXT_ANCHOR: Details of the collaboration, communication logs, stated objectives of all parties.\nOPERATIONAL_PARAMETERS: Provide an assessment of:\n    1. Value given by us / Value received by us.\n    2. Alignment of the collaborator's `modus operandi` with our principles.\n    3. Potential points of friction or imbalance in the `quid pro quo`.\n    4. Suggest one adjustment to optimize the exchange for our strategic advantage.\n    Aim for tactical depth.\n// END OF TRANSMISSION //"
+  }
+]

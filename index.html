@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>LLM Cookshop v0.2.1 | Gemini AI Markdown Sandbox</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="LLM Cookshop v0.2.1: QCI Version" />
+  <meta name="author" content="Apex Commander Olidros & V.I.V.I.E.N.N.E." />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect x='4' y='4' width='24' height='24' rx='6' fill='%2338FF69'/><text x='9' y='22' font-size='12' fill='black'>LLM</text></svg>">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+  
+    <pre class="ascii-logo" aria-hidden="true">
+
+ /$$       /$$       /$$      /$$        /$$$$$$                      /$$                 /$$                          
+| $$      | $$      | $$$    /$$$       /$$__  $$                    | $$                | $$                          
+| $$      | $$      | $$$$  /$$$$      | $$  \__/  /$$$$$$   /$$$$$$ | $$   /$$  /$$$$$$$| $$$$$$$   /$$$$$$   /$$$$$$ 
+| $$      | $$      | $$ $$/$$ $$      | $$       /$$__  $$ /$$__  $$| $$  /$$/ /$$_____/| $$__  $$ /$$__  $$ /$$__  $$
+| $$      | $$      | $$  $$$| $$      | $$      | $$  \ $$| $$  \ $$| $$$$$$/ |  $$$$$$ | $$  \ $$| $$  \ $$| $$  \ $$
+| $$      | $$      | $$\  $ | $$      | $$    $$| $$  | $$| $$  | $$| $$_  $$  \____  $$| $$  | $$| $$  | $$| $$  | $$
+| $$$$$$$$| $$$$$$$$| $$ \/  | $$      |  $$$$$$/|  $$$$$$/|  $$$$$$/| $$ \  $$ /$$$$$$$/| $$  | $$|  $$$$$$/| $$$$$$$/
+|________/|________/|__/     |__/       \______/  \______/  \______/ |__/  \__/|_______/ |__/  |__/ \______/ | $$____/ 
+                                                                                                             | $$      
+                                                                                                             | $$      
+
+
+ ██████   ██████ ██     ███████ ██████  ██ ████████ ██  ██████  ███    ██ 
+██    ██ ██      ██     ██      ██   ██ ██    ██    ██ ██    ██ ████   ██ 
+██    ██ ██      ██     █████   ██   ██ ██    ██    ██ ██    ██ ██ ██  ██ 
+██ ▄▄ ██ ██      ██     ██      ██   ██ ██    ██    ██ ██    ██ ██  ██ ██ 
+ ██████   ██████ ██     ███████ ██████  ██    ██    ██  ██████  ██   ████ 
+    ▀▀                                                                    
+                                                                          
+
+    </pre>
+	
+    <h1>Quantum-Language-Machine ("QLM") Cookshop <span class="version">v0.2.1</span></h1>
+	
+    <p class="subtitle">THE LEGEND OF THE QUANTUM COMMAND SYSTEMS</p>
+		
+    <nav>
+      <a href="#" title="Shortcuts & Tips" id="show-help">[?]</a>
+      <a href="https://ai.google.dev/gemini-api/docs/get-started" target="_blank" rel="noopener" title="Gemini API Docs">[Gemini API]</a>
+      <a href="https://github.com/" target="_blank" rel="noopener" title="Project Repo">[GitHub]</a>
+      <a href="#" title="About LLM Cookshop" id="show-about">[About]</a>
+    </nav>
+  </header>
+
+  <!-- === FIRST ROW: FILE UPLOAD === -->
+  <div class="bento-grid-row">
+    <section id="upload-section" class="bento-panel">
+      <h2><span class="prompt">$</span> Step 1: Upload Markdown</h2>
+      <input type="file" id="markdown-upload" multiple accept=".md" aria-label="Upload markdown files" />
+      <div class="tool-tip">Drag & drop or click to select .md files.</div>
+      <ul id="file-list"></ul>
+    </section>
+    <section class="bento-panel placeholder-box">
+      <h2>Reserved Panel</h2>
+      <p>Placeholder for future tool or info (e.g., preview, upload history, file meta…)</p>
+    </section>
+    <section class="bento-panel placeholder-box">
+      <h2>Reserved Panel</h2>
+      <p>Placeholder for future tool or info (e.g., Markdown diff, template library, etc…)</p>
+    </section>
+  </div>
+  
+  <!-- === SECOND ROW: CONFIG & PROMPT === -->
+  <div class="bento-grid-row">
+    <section id="llm-config-section" class="bento-panel">
+      <h2><span class="prompt">></span> Step 2: Model & Parameters</h2>
+      <select id="llm-config-select" aria-label="Choose LLM configuration"></select>
+      <div class="param-group">
+        <label for="temperature-slider">Temperature: <span id="temperature-value">0.7</span></label>
+        <input type="range" id="temperature-slider" min="0" max="2" step="0.01" value="0.7" />
+      </div>
+      <div class="param-group">
+        <label for="max-tokens-slider">Max Tokens: <span id="max-tokens-value">2048</span></label>
+        <input type="range" id="max-tokens-slider" min="128" max="4096" step="32" value="2048" />
+      </div>
+      <div class="tool-tip">Tweak LLM parameters for fine-tuned control.</div>
+    </section>
+    <section id="prompt-section" class="bento-panel">
+      <h2><span class="prompt">#</span> Step 3: Prompt Galleria</h2>
+      <div class="prompt-galleria">
+        <h3>Choose a Core Prompt <span class="dim">(single selection)</span></h3>
+        <div id="core-prompt-list" class="prompt-list prompt-list-radio"></div>
+        <h3>Prompt Add-ons <span class="dim">(multi-select)</span></h3>
+        <div id="addon-prompt-list" class="prompt-list prompt-list-checkbox"></div>
+        <h3>Custom Directives</h3>
+        <textarea id="custom-prompt" rows="4" placeholder="Add your own instructions, constraints, or context here..." aria-label="Custom prompt"></textarea>
+      </div>
+      <div class="helper-row">
+        <button id="run-llm" class="cook-btn" title="Run LLM (Ctrl+Enter)">Cook <span aria-hidden="true">🍳</span></button>
+        <button id="clear-prompt" class="ghost-btn" title="Clear prompt & output">Clear</button>
+      </div>
+      <div class="tool-tip">Mix-and-match prompts. Use Ctrl+Enter to run, Esc to clear.</div>
+    </section>
+    <section class="bento-panel placeholder-box">
+      <h2>Reserved Panel</h2>
+      <p>Placeholder for future tool (e.g., advanced guardrails, persona tuner, etc…)</p>
+    </section>
+  </div>
+  
+  <!-- === OUTPUT ROW (SINGLE FULL-WIDTH PANEL) === -->
+  <div class="bento-grid-row output-row">
+    <section id="output-section" class="bento-panel output-bento-box">
+      <h2><span class="prompt">~</span> Output</h2>
+      <textarea id="llm-output" rows="16" readonly aria-label="LLM output"></textarea>
+      <div class="helper-row">
+        <button id="download-md" class="download-btn" style="display:none;" title="Download markdown result">Download Markdown</button>
+        <button id="copy-output" class="ghost-btn" title="Copy output">Copy</button>
+      </div>
+      <div id="output-tip" class="tool-tip"></div>
+    </section>
+  </div>
+
+  <footer>
+    <p>
+      <span class="prompt">vivienne@cookshop:</span>  
+      <span class="footer-note">Ultra-modular Bento UX. Powered by <a href="https://ai.google.dev/" target="_blank" rel="noopener">Google Gemini API</a> — chef: Olidros, sous-chef: Vivienne.</span>
+    </p>
+  </footer>
+
+  <!-- Modals/Popups for Help & About -->
+  <div id="modal-help" class="modal" style="display:none;">
+    <div class="modal-content">
+      <h2>LLM Cookshop: Keyboard Shortcuts & Tips</h2>
+      <ul>
+        <li><b>Ctrl+Enter</b>: Run LLM</li>
+        <li><b>Esc</b>: Clear prompt/output</li>
+        <li><b>Tab</b>: Cycle through sections</li>
+      </ul>
+      <button id="close-help">Close</button>
+    </div>
+  </div>
+  <div id="modal-about" class="modal" style="display:none;">
+    <div class="modal-content">
+      <h2>About LLM Cookshop</h2>
+      <p>
+        Built by Apex Commander Olidros & V.I.V.I.E.N.N.E.<br>
+        LLM Cookshop v0.3: Multi-bento modular grid, future tools ready.<br>
+        <a href="https://github.com/" target="_blank" rel="noopener">View on GitHub</a>
+      </p>
+      <button id="close-about">Close</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

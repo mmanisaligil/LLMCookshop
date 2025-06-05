@@ -1,0 +1,38 @@
+[
+  {
+    "prompt_name": "Summarize & Extract Insights",
+    "prompt_text": "Summarize the main points of the provided text. Then, extract and list any key insights, trends, or unusual findings in bullet points."
+  },
+  {
+    "prompt_name": "Rewrite for Clarity & Professionalism",
+    "prompt_text": "Rewrite the following text to improve clarity, structure, and professional tone. Highlight and correct any jargon or ambiguous phrases."
+  },
+  {
+    "prompt_name": "Creative Ideation/Brainstorm",
+    "prompt_text": "Generate 5–10 creative ideas, solutions, or strategies related to the following problem or topic. For each, add a brief explanation and a potential next step."
+  },
+  {
+    "prompt_name": "Translate and Localize",
+    "prompt_text": "Translate the following text into [TARGET LANGUAGE], ensuring the result is culturally and contextually appropriate for the target audience."
+  },
+  {
+    "prompt_name": "Summarize for Social Media",
+    "prompt_text": "Summarize the following text as a punchy post for [PLATFORM] (Twitter, LinkedIn, etc.). Limit to [CHARACTER LIMIT] characters, and use an engaging, friendly tone."
+  },
+  {
+    "prompt_name": "Technical Explanation",
+    "prompt_text": "Explain the following concept or process in clear, simple terms suitable for a non-expert. Use analogies and step-by-step logic where possible."
+  },
+  {
+    "prompt_name": "Action Items Extraction",
+    "prompt_text": "From the text provided, extract all actionable items or tasks. Present them as a numbered list with clear, concise descriptions."
+  },
+  {
+    "prompt_name": "Persona Response Simulation",
+    "prompt_text": "Respond to the following message as if you are [SPECIFIC PERSONA: e.g., expert consultant, supportive mentor, skeptical analyst, etc.]. Keep your tone and advice consistent with this persona."
+  },
+  {
+    "prompt_name": "Risk/Opportunity Analysis",
+    "prompt_text": "Analyze the following scenario for risks and opportunities. Present your analysis in two columns or bullet lists: one for risks/challenges, one for opportunities/benefits."
+  }
+]
